@@ -1,5 +1,7 @@
 # SpreeContentful
 
+[![wercker status](https://app.wercker.com/status/5346e7c9d4a6dc2778077b1321b3e8e8/m "wercker status")](https://app.wercker.com/project/bykey/5346e7c9d4a6dc2778077b1321b3e8e8)
+
 Manage your content on [Contenful](contenful.com) and display on your Spree storefront
 
 ## Installation
