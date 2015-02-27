@@ -1,0 +1,10 @@
+<% content_for :page_title do %>
+  <%= Spree.t(:contentful_settings) %>
+<% end %>
+
+<%= form_tag admin_contentful_path, method: :put do |f| %>
+  <fieldset>
+    <%= render 'form', f: f %>
+    <div class="form-actions actions" data-hook="buttons"><%= button Spree.t('actions.update'), 'update' %></div>
+  </fieldset>
+<% end %>

@@ -1,0 +1,21 @@
+<div data-hook="admin_contenful_form_fields">
+  <div class="row">
+
+    <div class="col-md-6" data-hook="general">
+      <fieldset>
+        <legend><%= Spree.t(:general) %></legend>
+
+        <div class="form-group">
+          <%= label_tag :contentful_apikey, Spree.t(:contentful_apikey) %>
+          <%= text_field_tag :contentful_apikey, Spree::Config[:contentful_apikey], maxlength: 256, class: 'form-control' %>
+        </div>
+
+        <div class="form-group">
+          <%= label_tag :contentful_space, Spree.t(:contentful_space) %>
+          <%= text_field_tag :contentful_space, Spree::Config[:contentful_space], maxlength: 256, class: 'form-control' %>
+        </div>
+
+      </fieldset>
+    </div>
+  </div>
+</div>
